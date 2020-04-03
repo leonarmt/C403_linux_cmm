@@ -1,2 +1,6 @@
 ARMT C403 Moudle Linux Src With Buildroot
 
+1.Use  git clone https://github.com/leonarmt/C403_linux_cmm.git  command to get the source code
+2.Use make imx6-sabresd_defconfig and make to compile the buidroot
+3.Uboot placed in the C403_linux_cmm/src/uboot directoy ,run build_c403m506.sh to get the uboot bin
+4.Kernel placed in the C403_linux_cmm/src/linux_4115 directoy ,run build_linux.sh to get the Image and dtb
