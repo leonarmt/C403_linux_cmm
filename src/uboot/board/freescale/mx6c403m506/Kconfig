@@ -1,0 +1,12 @@
+if TARGET_MX6C403M506
+
+config SYS_BOARD
+	default "mx6c403m506"
+
+config SYS_VENDOR
+	default "freescale"
+
+config SYS_CONFIG_NAME
+	default "mx6c403m506"
+
+endif
